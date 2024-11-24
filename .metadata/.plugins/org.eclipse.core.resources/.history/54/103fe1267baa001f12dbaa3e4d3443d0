@@ -1,0 +1,14 @@
+/*
+ * header.h
+ *
+ *  Created on: 23 nov 2024
+ *      Author: simon
+ */
+
+#ifndef HEADER_H_
+#define HEADER_H_
+
+// Dichiara la funzione da esportare
+void hello_world();
+
+#endif /* HEADER_H_ */

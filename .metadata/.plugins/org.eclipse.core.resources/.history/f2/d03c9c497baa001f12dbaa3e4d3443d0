@@ -1,0 +1,12 @@
+/*
+ * header.c
+ *
+ *  Created on: 23 nov 2024
+ *      Author: simon
+ */
+
+#include <stdio.h>
+
+void hello_world() {
+    printf("Hello, World from shared library!\n");
+}

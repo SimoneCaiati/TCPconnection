@@ -1,0 +1,194 @@
+18:03:23 **** Incremental Build of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+18:03:24 **** Incremental Build of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+Info: Nothing to build for ClientTCPpasswordRequester
+18:05:11 **** Incremental Build of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+18:05:17 **** Incremental Build of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+Info: Nothing to build for libraries
+18:06:42 **** Incremental Build of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+Info: Nothing to build for ClientTCPpasswordRequester
+Info: Nothing to build for libraries
+Info: Nothing to build for ServerTCPpasswordGenerator
+Info: Nothing to build for ClientTCPpasswordRequester
+Info: Nothing to build for ClientTCPpasswordRequester
+18:11:53 **** Incremental Build of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+18:11:54 **** Incremental Build of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ServerTCPpasswordGenerator.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:11:54 **** Incremental Build of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ClientTCPpasswordRequester.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for libraries
+18:12:24 **** Incremental Build of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+18:12:25 **** Incremental Build of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+18:15:31 **** Clean-only build of configuration Debug for project ClientTCPpasswordRequester ****
+rm -rf src/ClientTCPpasswordRequester.o ClientTCPpasswordRequester.exe src/ClientTCPpasswordRequester.d 
+18:15:32 **** Clean-only build of configuration Debug for project ServerTCPpasswordGenerator ****
+rm -rf src/ServerTCPpasswordGenerator.o ServerTCPpasswordGenerator.exe src/ServerTCPpasswordGenerator.d 
+18:15:32 **** Clean-only build of configuration Debug for project libraries ****
+rm -rf src/Client.d src/Server.o src/Server.d src/Client.o src/header.o liblibraries.a src/header.d 
+18:15:33 **** Rebuild of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\header.o" "..\\src\\header.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Server.o" "..\\src\\Server.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+ar: creating liblibraries.a
+18:15:34 **** Rebuild of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ServerTCPpasswordGenerator.o" "..\\src\\ServerTCPpasswordGenerator.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+18:15:35 **** Rebuild of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ClientTCPpasswordRequester.o" "..\\src\\ClientTCPpasswordRequester.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+Info: Nothing to build for libraries
+Info: Nothing to build for ServerTCPpasswordGenerator
+Info: Nothing to build for ClientTCPpasswordRequester
+Info: Nothing to build for ClientTCPpasswordRequester
+18:21:55 **** Clean-only build of configuration Debug for project ClientTCPpasswordRequester ****
+rm -rf src/ClientTCPpasswordRequester.o ClientTCPpasswordRequester.exe src/ClientTCPpasswordRequester.d 
+18:21:56 **** Clean-only build of configuration Debug for project ServerTCPpasswordGenerator ****
+rm -rf src/ServerTCPpasswordGenerator.o ServerTCPpasswordGenerator.exe src/ServerTCPpasswordGenerator.d 
+18:21:56 **** Clean-only build of configuration Debug for project libraries ****
+rm -rf src/Client.d src/Server.o src/Server.d src/Client.o src/header.o liblibraries.a src/header.d 
+18:21:56 **** Rebuild of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Server.o" "..\\src\\Server.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\header.o" "..\\src\\header.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+ar: creating liblibraries.a
+18:21:57 **** Rebuild of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ServerTCPpasswordGenerator.o" "..\\src\\ServerTCPpasswordGenerator.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+18:21:58 **** Rebuild of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ClientTCPpasswordRequester.o" "..\\src\\ClientTCPpasswordRequester.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+18:22:20 **** Clean-only build of configuration Debug for project ClientTCPpasswordRequester ****
+rm -rf src/ClientTCPpasswordRequester.o ClientTCPpasswordRequester.exe src/ClientTCPpasswordRequester.d 
+18:22:21 **** Clean-only build of configuration Debug for project ServerTCPpasswordGenerator ****
+rm -rf src/ServerTCPpasswordGenerator.o ServerTCPpasswordGenerator.exe src/ServerTCPpasswordGenerator.d 
+18:22:21 **** Clean-only build of configuration Debug for project libraries ****
+rm -rf src/Client.d src/Server.o src/Server.d src/Client.o src/header.o liblibraries.a src/header.d 
+18:22:21 **** Rebuild of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Server.o" "..\\src\\Server.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\header.o" "..\\src\\header.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+ar: creating liblibraries.a
+18:22:22 **** Rebuild of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ServerTCPpasswordGenerator.o" "..\\src\\ServerTCPpasswordGenerator.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+18:22:23 **** Rebuild of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ClientTCPpasswordRequester.o" "..\\src\\ClientTCPpasswordRequester.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+Info: Nothing to build for libraries
+Info: Nothing to build for ServerTCPpasswordGenerator
+Info: Nothing to build for ClientTCPpasswordRequester
+Info: Nothing to build for ClientTCPpasswordRequester
+18:32:52 **** Clean-only build of configuration Debug for project ClientTCPpasswordRequester ****
+rm -rf src/ClientTCPpasswordRequester.o ClientTCPpasswordRequester.exe src/ClientTCPpasswordRequester.d 
+18:32:52 **** Clean-only build of configuration Debug for project ServerTCPpasswordGenerator ****
+rm -rf src/ServerTCPpasswordGenerator.o ServerTCPpasswordGenerator.exe src/ServerTCPpasswordGenerator.d 
+rm: cannot remove `ServerTCPpasswordGenerator.exe': Permission denied
+18:32:52 **** Clean-only build of configuration Debug for project libraries ****
+rm -rf src/Client.d src/Server.o src/Server.d src/Client.o src/header.o liblibraries.a src/header.d 
+18:32:53 **** Rebuild of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\header.o" "..\\src\\header.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Server.o" "..\\src\\Server.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+ar: creating liblibraries.a
+18:32:54 **** Rebuild of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ServerTCPpasswordGenerator.o" "..\\src\\ServerTCPpasswordGenerator.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ServerTCPpasswordGenerator.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:32:55 **** Rebuild of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ClientTCPpasswordRequester.o" "..\\src\\ClientTCPpasswordRequester.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+Info: Nothing to build for libraries
+18:32:58 **** Incremental Build of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ServerTCPpasswordGenerator.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ClientTCPpasswordRequester
+18:33:46 **** Clean-only build of configuration Debug for project ClientTCPpasswordRequester ****
+rm -rf src/ClientTCPpasswordRequester.o ClientTCPpasswordRequester.exe src/ClientTCPpasswordRequester.d 
+rm: cannot remove `ClientTCPpasswordRequester.exe': Permission denied
+18:33:47 **** Clean-only build of configuration Debug for project ServerTCPpasswordGenerator ****
+rm -rf src/ServerTCPpasswordGenerator.o ServerTCPpasswordGenerator.exe src/ServerTCPpasswordGenerator.d 
+rm: cannot remove `ServerTCPpasswordGenerator.exe': Permission denied
+18:33:47 **** Clean-only build of configuration Debug for project libraries ****
+rm -rf src/Client.d src/Server.o src/Server.d src/Client.o src/header.o liblibraries.a src/header.d 
+Command canceled
+18:34:40 **** Rebuild of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Server.o" "..\\src\\Server.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\header.o" "..\\src\\header.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+18:34:42 **** Rebuild of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ServerTCPpasswordGenerator.o" "..\\src\\ServerTCPpasswordGenerator.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+18:34:43 **** Rebuild of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ClientTCPpasswordRequester.o" "..\\src\\ClientTCPpasswordRequester.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+18:34:56 **** Clean-only build of configuration Debug for project ClientTCPpasswordRequester ****
+rm -rf src/ClientTCPpasswordRequester.o ClientTCPpasswordRequester.exe src/ClientTCPpasswordRequester.d 
+18:34:56 **** Clean-only build of configuration Debug for project ServerTCPpasswordGenerator ****
+rm -rf src/ServerTCPpasswordGenerator.o ServerTCPpasswordGenerator.exe src/ServerTCPpasswordGenerator.d 
+18:34:57 **** Clean-only build of configuration Debug for project libraries ****
+rm -rf src/Client.d src/Server.o src/Server.d src/Client.o src/header.o liblibraries.a src/header.d 
+18:34:57 **** Rebuild of configuration Debug for project libraries ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Client.o" "..\\src\\Client.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\header.o" "..\\src\\header.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Server.o" "..\\src\\Server.c" 
+ar -r -P liblibraries.a "src\\Client.o" "src\\Server.o" "src\\header.o" 
+ar: creating liblibraries.a
+18:34:58 **** Rebuild of configuration Debug for project ServerTCPpasswordGenerator ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ServerTCPpasswordGenerator.o" "..\\src\\ServerTCPpasswordGenerator.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ServerTCPpasswordGenerator.exe "src\\ServerTCPpasswordGenerator.o" -lwsock32 -llibraries 
+18:34:59 **** Rebuild of configuration Debug for project ClientTCPpasswordRequester ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ClientTCPpasswordRequester.o" "..\\src\\ClientTCPpasswordRequester.c" 
+gcc "-LC:\\Users\\simon\\OneDrive\\Desktop\\ConsegnaReti\\libraries\\Debug" -o ClientTCPpasswordRequester.exe "src\\ClientTCPpasswordRequester.o" -llibraries -lwsock32 
+Info: Nothing to build for libraries
+Info: Nothing to build for ServerTCPpasswordGenerator
+Info: Nothing to build for ClientTCPpasswordRequester
